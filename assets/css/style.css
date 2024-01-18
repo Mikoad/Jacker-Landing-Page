@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.messagePromo{
+   background-color: black; 
+   height: 45px;
+   color: white;
+   text-align: center;
+   padding: 17px;
+   font-weight: bold;
+   font-size: 0.75rem;
+}
+.firstNav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-top: 20px;
+
+}
+.logo{
+    width: 55%;
+    
+}
+.logo img{
+    height: 60px;
+    float: right;
+}
+.iconeImportant{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 30px;
+    margin-right: 60px;
+}
+.iconeImportant i{
+    color: grey;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    list-style: none;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    height: 60px;
+}
+nav li span{
+    color: rgb(0, 159, 0);
+}
+
+.fullNav{
+    border-bottom: 1px solid lightgray;
+
+}
+.fullNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+.accueilImages{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 95px;
+    
+}
+.accueilImages img{
+    height: 470px;
+}
+@media screen and (max-width:1280px) {
+    .accueilImages{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/*-----Section Nouvelle Collection Ready To Live-----*/
+
+.sectionNew h2{
+    margin: 80px auto;
+    padding-bottom: 5px;
+    width: 22%;
+    border-bottom: 2px solid rgb(56, 56, 56);
+}
+h2{
+    text-align: center;
+    font-size: 0.7;
+    width: 22%;
+    margin: auto;
+    color: rgb(56, 56, 56);
+    
+}
+h3{
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+.newCollection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    row-gap: 80px;
+    column-gap: 20px;
+
+}
+.newCollection img{
+    height: 220px;
+}
+.newCollection p{
+    color: grey;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.ancre p{
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    width: 18%;
+    text-align: center;
+    margin: 80px auto;
+    padding: 14px;
+
+}
+
+/*------------Section LookBooks---------------*/
+
+.lookBooks{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.sectionTitle{
+    font-size: 0.75rem;
+    font-weight: bolder;
+    margin: 80px auto;
+}
+.sectionTitle h2{
+    width: 20%;
+}
+.sectionTitle p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(56, 56, 56);
+}
+
+.articlesList{
+    display: flex;
+    justify-content: space-around;
+    font-stretch: 50%;
+}
+
+article h2{
+    margin: 20px;
+    width: 100%;
+    text-align: start;
+    font-size: 1.1rem;
+    font-stretch: extra-expanded;
+}
+article p{
+   margin-bottom: 20px;
+   font-size: 1rem;
+   width: 80%;
+   line-height: 25px;
+}
+article p, article a{
+    margin-left: 20px;
+    text-transform: none;
+}
+article a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+article a:hover{
+    border-bottom: none;
+}
+article{
+    width: 27%;
+    margin-bottom: 20px;
+}
+article img{
+    height: 200px;
+ 
+}
+/*-------------------------Footer------------------------*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 90%;
+    margin: 50px auto 50px;
+}
+.footer h3{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 0.75rem;
+}
+.footer input{
+    color: rgb(173, 173, 173);
+    height: 45px;
+    padding: 10px;
+    text-transform: none;
+    font-size: 1rem;
+    margin: 10px 0px 10px 10px;
+}
+.footer p, footer li{
+    text-transform: none;
+    color: rgb(160, 160, 160);
+    margin: 10px;
+    line-height: 25px;
+    font-size: 1.05rem;
+}
+
+.presentation{
+    flex-basis: 460px;
+}
+.presentation .serviceClient{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.iconContact{
+    display: flex;
+    gap: 25px;
+    width: 25%;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: rgb(160, 160, 160);
+}
+.summary{
+    flex-basis: 273px;
+}
+.summary li{
+    list-style: none;
+}
+.newsletter{
+    flex-basis: 375px;
+}
+.inscriptionButton p{
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    text-align: center;
+    width: 150px;
+    text-transform: uppercase;
+    padding: 10px;
+    
+}
+.iconPayment{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.iconPayment img{
+    height: 30px;
+}
